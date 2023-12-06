@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import CV from "../../../public/JAYESH BAKLE RESUME.pdf"
+import CV from "../../../public/JAYESH_BAKLE_RESUME.pdf"
 
 const HomeSection = () => {
   return (
