@@ -2,7 +2,6 @@ import HomeSection from "./components/HomeSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
-import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
 

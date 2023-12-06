@@ -2,10 +2,8 @@
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
-import Image from "next/image";
+
 
 const ContactForm = () => {
   const form = useRef();
@@ -48,10 +46,10 @@ const ContactForm = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link target="_blank" href="https://github.com/jayesh-bakle">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <img src={"github-icon.svg"} alt="Github Icon" />
           </Link>
           <Link target="_blank" href="https://www.linkedin.com/in/jayesh-bakle-423515234/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <img src={"linkedin-icon.svg"} alt="Linkedin Icon" />
           </Link>
         </div>
       </div>

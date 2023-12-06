@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description: "A simple mobile friendly Portfolio Web Application created using Reactjs,Js,Tailwindcss and some frameworks for simple animations where I showcased all my works and other stuffs related to me.",
-    image: "/images/projects/personal-portfolio.png",
+    img: "/images/projects/personal-portfolio.png",
     tag: ["All", "Web","Mobile"],
     gitUrl: "/",
     previewUrl: "/",
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Character Counter App",
     description: "This is a webpage made up using html css and javascript through which one can efficiently write his/her BIO correctly.",
-    image: "/images/projects/character-counter-app.png",
+    img: "/images/projects/character-counter-app.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jayesh-bakle/Instagram-Bio_spellingchecker_and_wordCounter",
     previewUrl: "https://jayesh-bakle.github.io/Instagram-Bio_spellingchecker_and_wordCounter/",
@@ -29,7 +29,7 @@ const projectsData = [
     id: 3,
     title: "Snake Game",
     description: "A simple Snake game made to enjoy in the free time with the help of HTML,CSS AND JS.It also has some good sound effects and other stuffs to make the game interesting.",
-    image: "/images/projects/snake-game.png",
+    img: "images/projects/snake-game.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jayesh-bakle/snake-game-using-js",
     previewUrl: "https://jayesh-bakle.github.io/snake-game-using-js/",
@@ -39,7 +39,7 @@ const projectsData = [
     id: 4,
     title: "Moving Car Animation",
     description: "An animation of a moving car from the dusk to dawn made with simple Html,css and js",
-    image: "/images/projects/moving-car-animation.png",
+    img:"images/projects/moving-car-animation.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/jayesh-bakle/car-animation-js",
     previewUrl: "https://jayesh-bakle.github.io/car-animation-js/",
@@ -48,7 +48,7 @@ const projectsData = [
     id: 5,
     title: "Rock Paper Scissor Game",
     description: "A game full of fun created with my own personalized sound which you can play with the computer and see If you can win or not!",
-    image: "/images/projects/rock-paper-game.png",
+    img: "/images/projects/rock-paper-game.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jayesh-bakle/rock-paper-scissor-game",
     previewUrl: "https://jayesh-bakle.github.io/rock-paper-scissor-game/",
@@ -57,7 +57,7 @@ const projectsData = [
     id: 6,
     title: "Tic Tac Toe",
     description: "Tic Tac Toe Game is the same game which we used to play in our childhood.Enjoy it",
-    image: "/images/projects/tic-tac-toe-game.png",
+    img: "/images/projects/tic-tac-toe-game.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -117,7 +117,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
-              imgUrl={project.image}
+              imgUrl={project.img}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
